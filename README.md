@@ -1,6 +1,11 @@
-# Head First Python book - Notes
+# Head First Python. Paul Berry - Notes
 
 ## Functions and Modules - Standard library
+
+Useful links:
+
+- <http://pypi.python.org>
+- <https://docs.python.org/3/library/index.html>
 
 ### 1. sys module
 
@@ -50,3 +55,33 @@ datetime.date(2019, 5, 29)
 >>> datetime.date.today().year
 2019
 ~~~
+
+- date.isoformat
+
+~~~python
+>>> datetime.date.isoformat(datetime.date.today())
+'2019-05-29'
+~~~
+
+### 4. time module
+
+- 24-hours format
+
+~~~python
+>>> import time
+>>> time.strftime("%H:%M")
+'22:46'
+~~~
+
+- AM vs. PM
+
+~~~python
+>>> time.strftime("%A %p")
+'Wednesday PM'
+~~~
+
+## Data Structures
+
+### Lists []
+
+Lists can contain *any* data of *any* type. Types can be even mixed.
