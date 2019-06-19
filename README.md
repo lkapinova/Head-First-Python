@@ -85,3 +85,15 @@ datetime.date(2019, 5, 29)
 ### Lists []
 
 Lists can contain *any* data of *any* type. Types can be even mixed.
+
+## Operators
+
+### Standard operators
+
+such as +, -, *, /, >, <, > =, < =, and so on
+
+### Super operators
+
+in - returns True / False
+
+
