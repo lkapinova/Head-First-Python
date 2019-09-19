@@ -80,6 +80,10 @@ datetime.date(2019, 5, 29)
 'Wednesday PM'
 ~~~
 
+~~~python
+>>> time.sleep(5)
+takes 5 seconds to reapeare the >>> prompt
+
 ## Data Structures
 
 ### Lists []
@@ -96,4 +100,15 @@ such as +, -, *, /, >, <, > =, < =, and so on
 
 in - returns True / False
 
+## for loop
 
+Three different ways of usage:
+### 1. iterate over a list of numbers:
+for i in [1,2,3]:
+    print(i)
+### 2. itarate over a string:
+for i in'Hello':
+    print(i)
+### 3. using range:
+for i in range(5):
+    print('Blablabla')
