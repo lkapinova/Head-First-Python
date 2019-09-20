@@ -112,3 +112,7 @@ for i in'Hello':
 ### 3. using range:
 for i in range(5):
     print('Blablabla')
+
+## using help in prompt
+>>>help(random.randint)
+
